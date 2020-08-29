@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+background-color:#A1C3A3;
+	}
+
+header{
+	opacity: 0.5;
+}
+.menu-bar{
+	width: 100%;
+	text-align: center;
+	
+	height: 70px;
+	line-height: 70px;
+
+}
+.menu-bar ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 30px;
+	position: relative;
+	float: right;
+}
+.menu-bar ul li a {
+	text-decoration: none;
+	font-size: 19px;
+	color: white;
+}
+
+.menu-bar ul li a:hover{
+	background-color: #643a79;
+}
+
+.logo img{
+	position: absolute;
+	margin-top: 8px;
+}
+
+#personal-section{
+
+}
+
+.content{
+	width: 100%;
+
+}
+
+.left-div {
+	opacity: 0.8;
+    width: 50%;
+    float: left;
+    background-color: #82968c;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.left-div h1{
+	text-align: center;
+	margin-top: 10px;
+
+}
+.left-div img{
+	display: block;
+	
+	width: 453px;
+	height: 200px;
+}
+.right-div {
+	opacity: 0.8;
+    border-radius: 10px;
+    width: 45%;
+    float: right;
+    background-color: #8ab58d;
+}
+
+.right-div h1{
+	text-align: center;
+}
+
+/*.right-div hr{
+	border: 5px solid black;
+	border-radius: 5px;
+}
+*/
+.form{
+	margin-left: 115px;
+}
+
+input{
+	border-radius:5px;
+	border: 3px solid black;
+
+}
+input[type="reset"]{
+	color: white;
+	background: #000000;
+}
+
+input[type="reset"]:hover{
+	background-color: #84C4E8;
+}
+
+
+input[type="submit"]{
+	color: white;
+	background: #000000;
+}
+input[type="submit"]:hover{
+	background-color: #84C4E8;
+}
+
+.icon ul li{
+	float: left;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.icon ul li .fab{
+	color:#000;
+	margin-left: 20px;
+	
+} 
+
+.icon h5{
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+
+textarea {
+    border-radius: 10px;
+    background-color: #b4cebe;
+}
+
